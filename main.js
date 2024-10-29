@@ -1,12 +1,13 @@
 leftWrist_x = 0;
 rightWrist_x = 0;
 difference = 0;
+var font="suvayan";
 
 function setup(){
     video = createCapture(VIDEO);
     video.size(400,400);
     video.position(10,50);
-
+font=document.getElementById('font').value;
     canvas = createCanvas(800,400);
     canvas.position(430,130);
 
