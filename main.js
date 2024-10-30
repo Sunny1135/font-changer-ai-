@@ -20,7 +20,7 @@ function draw(){
     document.getElementById("font_size").innerHTML = "Font Size Of The Text Will Be = "+difference+"px";
     textSize(difference);
     fill("#00ff0a");
-    text('suvayan',0,400);
+    text(font,0,400);
 }
 
 function modelDone(){
